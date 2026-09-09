@@ -1,0 +1,26 @@
+.containerMain {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.title {
+  width: 100%;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  overflow: hidden;
+}
+
+.errorState {
+  width: min(1240px, calc(100% - 48px));
+  margin: 40px auto;
+}
